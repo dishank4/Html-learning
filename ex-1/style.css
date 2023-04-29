@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: antiquewhite;
+}
+
+.container {
+    /* border: 2px solid black; */
+    margin: 0 35px;
+}
+
+.header {
+    border: 2px solid darkgreen;
+    height: 185px;
+    margin-top: 20px;
+    background-color: #0D3814;
+    border-radius: 5px;
+    color: lightgreen;
+}
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-8 {
+    font-size: 8px;
+}
+
+.header-container {
+    padding: 15px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.image-adjust img {
+    position: relative;
+    top: 2px;
+}
+
+.header-container .free-btn-div span {
+    background: #487F56;
+    padding: 3px 10px;
+    font-size: 10px;
+
+}
+
+.header-container .title div {
+    font-size: 28px;
+    padding: 8px 0px;
+    font-weight: bold;
+}
+
+.header-container .exprience {
+    padding: 5px 0px;
+}
+
+.header-container .available-hrs {
+    padding: 5px 0px;
+}
+
+.header-container .skill-title {
+    padding: 5px 0px;
+}
+
+.header-container .skills {
+    padding: 5px 0px;
+}
+
+.header-container .skills span {
+    padding: 3px 6px;
+    border: 1px solid lightgreen;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.header-container .main-content {
+    border: 2px solid rebeccapurple;
+
+}
+
+
+
+.main-content .main-box-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.main-content .main-box-list .main-box-item {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #0D3814;
+    border-radius: 100px;
+    /* background-color: #0D3814; */
+    /* background-color: linear-gradient(to bottom right, #0D3814, #90EE90); */
+    background: linear-gradient(to bottom right, #0D3814 20%, #4a8c4a 100%);
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    /* padding: 10px 0px; */
+
+}
+
+.main-content .main-box-list .main-box-item .text-number {
+    padding-top: 15px;
+}
+
+.main-content .main-box-list .main-box-item .text-description {
+    padding: 15px;
+}
+
+
+.footer {
+    border: 2px solid lightgreen;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.footer .button-div {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -25px;
+}
+
+.footer .button-div button {
+    padding: 15px 45px;
+    background-color: #0D3814;
+    color: white;
+    border-radius: 3px;
+}
