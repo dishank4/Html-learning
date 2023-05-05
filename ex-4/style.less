@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-style: italic;
+}
+
+.small-container {
+    padding: 0px 20px;
+}
+
+.container {
+    padding: 10px 40px !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.mar-left-8 {
+    margin-left: 8px;
+}
+
+input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 15px;
+    color: transparent !important;
+    background: #fef2e0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid blue;
+    margin-right: 7px;
+    margin-right: 3px;
+    position: relative;
+    top: -2px
+}
+
+.top-header {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        font-size: 25px;
+
+    }
+
+    .right-side-menu {
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+
+            li {
+                padding: 0px 7px;
+                font-style: italic;
+
+                .pro {
+                    background-color: blue;
+                    color: #fff;
+                    // font-size: 1px;
+                    padding: 4px;
+                }
+            }
+        }
+    }
+}
+
+.top-menu {
+    .top-tabs {
+        border-bottom: 1px solid lightgrey;
+        display: flex;
+        padding: 0px 40px;
+        justify-content: flex-end;
+
+        .top-tabs-item {
+            border: 1px solid lightblue;
+            padding: 10px;
+
+        }
+
+        .first {
+            margin-right: auto;
+        }
+    }
+}
+
+.main {
+    .main-top {
+        display: flex;
+        justify-content: space-between;
+
+        .tag {
+            background: blue;
+            padding: 7px 10px;
+            border: 1px solid blue;
+            border-radius: 15px;
+            color: #fff;
+
+            span {
+                // font-size: 28px;
+                position: relative;
+                font-style: normal;
+            }
+        }
+    }
+
+    .main-list {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        font-style: normal;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+
+        .main-list-item {
+            border: 1px solid lightblue;
+            height: 500px;
+            width: 330px;
+            border-radius: 5px;
+            max-width: 350px;
+
+            .image {
+                height: 50%;
+                background-color: lightgrey;
+
+                img {
+                    padding: 10px;
+                }
+            }
+
+            .description {
+                padding: 18px;
+                height: 50%;
+
+                .title {
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+
+                .sub-title {
+                    padding: 18px 0px;
+
+                    .html {
+                        color: aqua;
+                    }
+
+                    .css {
+                        color: rgb(24, 24, 230)
+                    }
+
+                    .rank-pos {
+                        border: 1px solid lawngreen;
+                        padding: 3px 0Px;
+                        border-radius: 5px;
+                        float: right;
+
+                        .rank {
+                            background: lawngreen;
+                            color: #fff;
+                            padding: 3px;
+                            border: 1px solid lawngreen;
+
+                        }
+
+                        .position {
+                            text-transform: capitalize;
+                            color: lawngreen;
+                            padding: 6px;
+
+
+                        }
+                    }
+
+                }
+
+                .challenges-desc {
+                    margin-top: 10px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
