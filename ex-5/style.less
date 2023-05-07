@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(239, 237, 237);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .header {
+        // border: 1px solid #000;
+        margin: 50px 35% 5px 35%;
+        text-align: center;
+
+        .main-heading {
+            color: gray;
+            font-weight: 400;
+            font-size: large;
+        }
+
+        .main-heading-bold {
+            color: #000;
+            font-weight: 600;
+            font-size: large;
+        }
+
+        .main-heading-tag-line {
+            font-size: 11px;
+            color: gray;
+            padding: 8px;
+        }
+    }
+
+    .main-body {
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .col {
+            margin: 15px;
+
+            .box {
+                width: 180px;
+                height: 130px;
+                margin: 25px 0px;
+                border-top: 3px solid;
+                background: #fff;
+                box-shadow: 0px 10px 10px 5px lightgrey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+
+                .box-title {
+                    font-weight: 600;
+                }
+
+                .small-tag {
+                    margin-top: 5px;
+                    color: gray;
+                    font-size: x-small;
+                }
+
+                .image-div {
+
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding: 20px;
+                }
+
+            }
+
+            .red-box {
+                border-top-color: rgb(193, 8, 8);
+            }
+
+            .light-blue-box {
+                border-color: rgb(6, 190, 190);
+            }
+
+            .yellow-box {
+                border-color: rgb(217, 217, 5);
+            }
+
+            .blue-box {
+                border-color: rgb(6, 6, 207);
+            }
+        }
+
+
+
+    }
+
+
+}
