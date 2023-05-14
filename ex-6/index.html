@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet/less" href="./style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="header-wrapper">
+            <div class="menu-hem" onclick="menuClick()"> <span class="menu-hem-name"> Menu</span> </div>
+            <div class="logo"> Logo</div>
+        </div>
+    </section>
+    <section class="left-menu" id="left-menu">
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="./images/avatar2.png" />
+            </div>
+            <div class="profile-content">
+                <div class="welcome-user"> Welcome, <b> Mike </b></div>
+                <div class="notification-icons">
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span><i class="fa fa-user"></i></span>
+                    <span><i class="fa fa-cog"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <nav>
+                <div class="title">Dashboard</div>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"> <i class="fa fa-users"></i>View</li>
+                    <li class="nav-menu-item"> <i class="fa fa-eye"></i>Traffic</li>
+                    <li class="nav-menu-item"> <i class="fa fa-users"></i>Geo</li>
+                    <li class="nav-menu-item"> <i class="fa fa-bullseye"></i>Orders</li>
+                    <li class="nav-menu-item"> <i class="fa fa-diamond"></i>News </li>
+                    <li class="nav-menu-item"> <i class="fa fa-bell"></i>General</li>
+                    <li class="nav-menu-item"> <i class="fa fa-bank"></i>Overview</li>
+                    <li class="nav-menu-item"> <i class="fa fa-history"></i>History</li>
+                    <li class="nav-menu-item"> <i class="fa fa-cog"></i>Settings</li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="main-area">
+        <h5 class="dashboard-title">
+            <i class="fa fa-dashboard"></i>
+            My Dashboard
+        </h5>
+        <div class="status-sections">
+            <div class="message-box box">
+                <div class="count">
+                    <i class="fa fa-comment xxxlarge"></i>
+                    <span>52</span>
+                </div>
+                <div>
+                    Messages
+                </div>
+            </div>
+            <div class="view-box box">
+                <div class="count">
+                    <i class="fa fa-eye xxxlarge"></i>
+                    <span>99</span>
+                </div>
+                <div>
+                    Views
+                </div>
+            </div>
+            <div class="share-box box">
+                <div class="count">
+                    <i class="fa fa-share xxxlarge"></i>
+                    <span>52</span>
+                </div>
+                <div>
+                    Shares
+                </div>
+            </div>
+            <div class="users-box box">
+                <div class="count">
+                    <i class="fa fa-users xxxlarge"></i>
+                    <span>52</span>
+                </div>
+                <div>
+                    Users
+                </div>
+            </div>
+        </div>
+        <div class="region-feeds">
+            <div class="region">
+                <h3>Regions</h3>
+                <div><img src="./images/region.jpg" /></div>
+            </div>
+            <div class="feeds">
+                <h3>Feeds</h3>
+                <div class="feed-wrapper">
+                    <ul class="feed-list">
+                        <li>
+                            <i class="fa fa-user blue-color"></i>
+                            <span class="description"> New record, over 90 views</span>
+                            <span class="time">10 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-bell red-color"></i>
+                            <span class="description"> Datebase error.</span>
+                            <span class="time">15 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-users yellow-color"></i>
+                            <span class="description"> New record, over 40 users</span>
+                            <span class="time">17 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-comment red-color"></i>
+                            <span class="description"> New comments</span>
+                            <span class="time">25 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-bookmark blue-color"></i>
+                            <span class="description"> Check translations.</span>
+                            <span class="time">28 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-laptop red-color"></i>
+                            <span class="description"> CPU overload.</span>
+                            <span class="time">35 mins</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-share-alt  green-color"></i>
+                            <span class="description"> New shares.</span>
+                            <span class="time">39 mins</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="general-stats">
+            <h3>General Stats</h3>
+            <div class="percentage">
+                <h5> New Visitors</h5>
+                <div class="progress-bar-first">
+                    <div class="original"> 25%</div>
+                    <div class="background"> </div>
+                </div>
+            </div>
+            <div class="percentage">
+                <h5> New Users</h5>
+                <div class="progress-bar-second">
+                    <div class="original"> 50%</div>
+                    <div class="background"> </div>
+                </div>
+            </div>
+            <div class="percentage">
+                <h5> Vounce Rate</h5>
+                <div class="progress-bar-third">
+                    <div class="original"> 75%</div>
+                    <div class="background"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="country">
+            <h3>Countries</h3>
+            <div class="country-wrapper">
+                <ul class="country-list">
+                    <li>
+                        <span class="description"> United States</span>
+                        <span class="percentage">65%</span>
+                    </li>
+                    <li>
+                        <span class="description"> UK</span>
+                        <span class="percentage">15.7%</span>
+                    </li>
+                    <li>
+                        <span class="description"> Russia</span>
+                        <span class="percentage">5.6%</span>
+                    </li>
+                    <li>
+                        <span class="description"> Spain</span>
+                        <span class="percentage">2.1%</span>
+                    </li>
+                    <li>
+                        <span class="description"> India</span>
+                        <span class="percentage">1.9%</span>
+                    </li>
+                    <li>
+                        <span class="description"> France</span>
+                        <span class="percentage">1.5%</span>
+                    </li>
+                </ul>
+
+                <div class="action">
+                    <button> More Countries <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="recent-users">
+            <h3>Recent Users</h3>
+            <div class="recent-users-wrapper">
+                <ul class="recent-users-list">
+                    <li>
+                        <span class="prifile-pic"> <img src="./images/avatar2.png" /></span>
+                        <span class="name">Mike</span>
+                    </li>
+                    <li>
+                        <span class="prifile-pic"> <img src="./images/avatar5.png" /></span>
+                        <span class="name">Jill</span>
+                    </li>
+                    <li>
+                        <span class="prifile-pic"> <img src="./images/avatar6.png" /></span>
+                        <span class="name">Jane</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="recent-comments">
+            <h3>Recent Comments</h3>
+            <div class="recent-comments-wrapper">
+                <ul class="recent-comments-list">
+                    <li>
+                        <div class="prifile-pic"> <img src="./images/avatar3.png" /></div>
+                        <div class="description">
+                            <div class="name">Jhon <span class="date">Sep 29,2014, 9:12 PM</span></div>
+                            <div class="comment-message">Keep up the GREAT work! I am cheering for you!! Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="prifile-pic"> <img src="./images/avatar1.png" /></div>
+                        <div class="description">
+                            <div class="name">Bo <span class="date">Sep 28, 2014, 10:15 PM</span></div>
+                            <div class="comment-message">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="links">
+            <div class="links-wrapper">
+                <div class="link-item">
+                    <div class="green">Demographic</div>
+                    <div class="item">
+                        Language
+                    </div>
+                    <div class="item">
+                        Country
+                    </div>
+                    <div class="item">
+                        City
+                    </div>
+                </div>
+                <div class="link-item">
+                    <div class="red">System</div>
+                    <div class="item">
+                        Browser
+                    </div>
+                    <div class="item">
+                        OS
+                    </div>
+                    <div class="item">
+                        More
+                    </div>
+                </div>
+                <div class="link-item">
+                    <div class="yellow">Target</div>
+                    <div class="item">
+                        Users
+                    </div>
+                    <div class="item">
+                        Actions
+                    </div>
+                    <div class="item">
+                        Geo
+                    </div>
+                    <div class="item">
+                        Interests
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function menuClick() {
+            console.log("hello");
+            console.log(document.getElementById('left-menu').style.animationName === 'openmenu')
+            let elem = document.getElementById('left-menu');
+            if (!elem.classList.contains('showmenu')) {
+                elem.classList.add("showmenu");
+            } else {
+                elem.classList.remove("showmenu");
+            }
+        }
+    </script>
+
+</body>
+
+
+</html>
